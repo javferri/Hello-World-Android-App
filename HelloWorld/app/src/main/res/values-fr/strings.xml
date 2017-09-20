@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Bonjour Monde</string>
+
+    <string name="navigation_drawer_open">Ouvrir compartiment de navegation</string>
+    <string name="navigation_drawer_close">Fermer compartiment de navegation</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="loading">Chargement...</string>
+    <string name="login_text">Connexion</string>
+    <string name="hint_username">Nom d\'utilisateur...</string>
+    <string name="hint_password">Mot de passe...</string>
+    <string name="exit_button">Sortir</string>
+    <string name="register_button">Registrer</string>
+    <string name="hint_id">Numéro d\'identification...</string>
+    <string name="register_text">Registrer</string>
+    <string name="hint_birthdate">Date de naissance...</string>
+    <string name="signup_button">Registrer</string>
+    <string name="hint_birthhour">Heure de naissance...</string>
+    <string name="hello_world">Bonjour Monde!</string>
+    <string name="selected"> sélectionné</string>
+    <string name="filtering">En filtrant...</string>
+    <string name="error_receiving_data">Erreurs lors de la réception des données</string>
+    <string name="searching">En processus de recherche...</string>
+    <string name="invalid_ID">Numéro d\'identification invalide</string>
+    <string name="not_enough_data">Tu n\'as pas introduit correct données</string>
+    <string name="changes_applied">Changements appliqués correctement</string>
+    <string name="invalid_credentials">Identifiants invalides</string>
+    <string name="successfully_registered">Enregistré correctement avec id:</string>
+    <string name="welcome_to_hello_world">Bienvenu à l\'application Bonjour Monde!</string>
+    <string name="filter_users">Filtrer utilisateurs</string>
+    <string name="value">Valeur...</string>
+    <string name="filter">Filtrer</string>
+    <string name="list_users">Lister utilisateurs</string>
+    <string name="search_user">Chercher utilisateur</string>
+    <string name="introduce_id">Introduire numéro d\'identification...</string>
+    <string name="search">Chercher</string>
+    <string name="edit_account">Éditer compte</string>
+    <string name="edit_username">Éditer nom d\'utilisateur:</string>
+    <string name="new_value">Nouvelle valeur...</string>
+    <string name="edit_birthdate">Éditer date de naissance:</string>
+    <string name="save_changes">Enregistrer modifications</string>
+    <string name="user_name">Nom d\'utilisateur</string>
+    <string name="user_id">Numéro d\'identification d\'utilisateur</string>
+    <string name="user_birthdate">Date de naissance d\'utilisateur</string>
+    <string name="home">Écran principal</string>
+    <string name="profile">Profil</string>
+    <string name="remove_account">Supprimer compte</string>
+    <string name="log_out">Déconnexion</string>
+    <string name="no_such_user">L\'utilisateur n\'éxiste pas</string>
+    <string name="action_credits">Crédits</string>
+    <string name="credits_message">Javier Fernández Riolobos (Demostration d\'application pour la société InnoCV Solutions)</string>
+    <string name="quit">Quitter</string>
+    <string name="help">Help</string>
+    <string name="help_content">Bienvenu à l\'aplication ¡Bonjour Monde! Touche l\'icon de l\'écran de navegation pour commencer. L\'écran principal est seulement pour te donner la bienvenue.La liste de utilisateurs montre tous ces qui sont dans l\'application. Filtrer utilisateurs fait des restrictions pour montrer seulement ceux qui les passent. Chercher utilisateur determine un qui se correspond avec l\'ID selectioné. Editer la compte permetre de modifier tes donnés personels. Suprimer compte elimine ton profil d\'utilisateur.</string>
+    <string name="follow_me">Suis-moi sur mes réseaux sociaux!</string>
+    <string name="link_to_linkedin">www.linkedin.com/in/javier-fernandez-riolobos</string>
+
+</resources>

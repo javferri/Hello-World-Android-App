@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_gradient"
+    tools:context=".activities.menu.MenuUpdateAccountFragment">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/edit_account"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="20dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_username"
+                android:layout_gravity="center"
+                android:spinnerMode="dropdown"
+                android:layout_weight="1"/>
+
+            <!-- Update Label -->
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_weight="1">
+
+                <EditText android:id="@+id/update_value"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:inputType="text"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:hint="@string/new_value"/>
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_birthdate"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown"
+            android:layout_weight="1"/>
+
+        <!-- Birthdate Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/update_birthdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_register_birthdate"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:focusable="false"
+                android:clickable="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Birthhour Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText android:id="@+id/update_birthhour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_register_birthhour"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:focusable="false"
+                android:clickable="true"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"
+            android:layout_weight="0.42"
+            android:background="@color/colorButton"
+            android:text="@string/save_changes" />
+
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>

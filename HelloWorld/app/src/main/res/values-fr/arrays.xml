@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="spinner_arrays">
+        <item>ID supérieur à ...</item>
+        <item>Nom qui contient ...</item>
+    </string-array>
+
+    <string-array name="spinner_arrays_update">
+        <item>Modifier nom d\'utilisateur ...</item>
+        <item>Modifier date de naissance ...</item>
+    </string-array>
+
+</resources>

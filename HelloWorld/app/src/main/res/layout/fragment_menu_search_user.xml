@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background_gradient"
+    tools:context=".activities.menu.MenuSearchUserFragment">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/search_user"
+            android:layout_gravity="center"
+            android:textSize="50dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"/>
+
+        <!-- Search Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText android:id="@+id/search_value"
+                android:layout_width="356dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:drawableLeft="@drawable/ic_find"
+                android:inputType="text"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:hint="@string/introduce_id"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:text="@string/search"
+            android:background="@color/colorButton"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_searched_users_recycler_view"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+</FrameLayout>
+</ScrollView>

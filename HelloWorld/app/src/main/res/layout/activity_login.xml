@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context="activities.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <!-- Application logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:background="@drawable/logo"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="60dp"/>
+
+        <!-- Login text -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="cursive" />
+
+        <!-- ID Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/login_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_login_id"
+                android:gravity="center"
+                android:inputType="text"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:hint="@string/hint_id"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Username Label -->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <EditText android:id="@+id/login_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_login_username"
+                android:gravity="center"
+                android:inputType="text"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:hint="@string/hint_username"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <!-- Login button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/login_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@color/colorButton"
+                android:text="@string/login_text"/>
+
+            <!-- Register button -->
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="@color/colorButton"
+                android:text="@string/register_button"/>
+        </LinearLayout>
+
+        <!-- Exit button -->
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/exit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorButton"
+
+            android:text="@string/exit_button"/>
+
+    </LinearLayout>
+</ScrollView>

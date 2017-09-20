@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Hello World</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="login_text">Login</string>
+    <string name="hint_username">Username...</string>
+    <string name="hint_password">Password...</string>
+    <string name="exit_button">Exit</string>
+    <string name="register_button">Register</string>
+    <string name="hint_id">Id...</string>
+    <string name="register_text">Register</string>
+    <string name="hint_birthdate">Birthdate...</string>
+    <string name="signup_button">Register</string>
+    <string name="hint_birthhour">Birth hour...</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="selected"> selected</string>
+    <string name="filtering">Filtering...</string>
+    <string name="error_receiving_data">Error receiving data</string>
+    <string name="searching">Searching...</string>
+    <string name="invalid_ID">Invalid ID</string>
+    <string name="not_enough_data">You haven\'t introduced enough data</string>
+    <string name="changes_applied">Changes applied correctly</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="successfully_registered">Successfully registered with id:</string>
+    <string name="welcome_to_hello_world">Welcome to Hello World Application!</string>
+    <string name="filter_users">Filter users</string>
+    <string name="value">Value...</string>
+    <string name="filter">Filter</string>
+    <string name="list_users">List users</string>
+    <string name="search_user">Search user</string>
+    <string name="introduce_id">Introduce ID...</string>
+    <string name="search">Search</string>
+    <string name="edit_account">Edit account</string>
+    <string name="edit_username">Edit username:</string>
+    <string name="new_value">New value ...</string>
+    <string name="edit_birthdate">Edit birthdate:</string>
+    <string name="save_changes">Save changes</string>
+    <string name="user_name">User name</string>
+    <string name="user_id">User ID</string>
+    <string name="user_birthdate">User birthdate</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="remove_account">Remove account</string>
+    <string name="log_out">Log out</string>
+    <string name="no_such_user">No such user</string>
+    <string name="action_credits">Credits</string>
+    <string name="credits_message">Javier Fernández Riolobos (Application demo for InnoCV Solutions Enterprise)</string>
+    <string name="quit">Quit</string>
+    <string name="help">Help</string>
+    <string name="help_content">Welcome to Hello World Application! Touch the navigation drawer icon to start enjoying the functionality provided. Home it\'s only a presentation screen. User\'s list provide all the existing usernames. User filter allows you to do some restrictions in order to list the users. Search users allows you to look for an individual using his id. Edit account allows you to modify your personal data. Delete account remove your user\s account.</string>
+    <string name="follow_me">Follow me on my social media!</string>
+    <string name="link_to_linkedin">www.linkedin.com/in/javier-fernandez-riolobos</string>
+</resources>

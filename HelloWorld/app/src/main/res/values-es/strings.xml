@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Hola Mundo</string>
+
+    <string name="navigation_drawer_open">Abrir pestaña de navegación</string>
+    <string name="navigation_drawer_close">Cerrar pestaña de navegación</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="loading">Cargando...</string>
+    <string name="login_text">Login</string>
+    <string name="hint_username">Nombre de usuario...</string>
+    <string name="hint_password">Contraseña...</string>
+    <string name="exit_button">Salir</string>
+    <string name="register_button">Registrarse</string>
+    <string name="hint_id">Id...</string>
+    <string name="register_text">Registrarse</string>
+    <string name="hint_birthdate">Fecha de nacimiento...</string>
+    <string name="signup_button">Registrarse</string>
+    <string name="hint_birthhour">Hora de nacimiento...</string>
+    <string name="hello_world">¡Hola Mundo!</string>
+    <string name="selected"> seleccionado</string>
+    <string name="filtering">Filtrando...</string>
+    <string name="error_receiving_data">Error recibiendo datos</string>
+    <string name="searching">Buscando...</string>
+    <string name="invalid_ID">ID invalido</string>
+    <string name="not_enough_data">No has introducido suficientes datos</string>
+    <string name="changes_applied">Cambios guardados correctamente</string>
+    <string name="invalid_credentials">Credenciales inválidas</string>
+    <string name="successfully_registered">Registrado exitosamente con ID:</string>
+    <string name="welcome_to_hello_world">Bienvenido a la aplicación Hola Mundo!</string>
+    <string name="filter_users">Filtrar usuarios</string>
+    <string name="value">Valor...</string>
+    <string name="filter">Filtrar</string>
+    <string name="list_users">Lista de usuarios</string>
+    <string name="search_user">Buscar usuarios</string>
+    <string name="introduce_id">Introducir ID...</string>
+    <string name="search">Buscar</string>
+    <string name="edit_account">Editar cuenta</string>
+    <string name="edit_username">Editar nombre de usuario:</string>
+    <string name="new_value">Nuevo valor ...</string>
+    <string name="edit_birthdate">Editar fecha de nacimiento:</string>
+    <string name="save_changes">Guardar cambios</string>
+    <string name="user_name">Nombre de usuario</string>
+    <string name="user_id">ID de usuario</string>
+    <string name="user_birthdate">Fecha de nacimiento del usuario</string>
+    <string name="home">Pantalla principal</string>
+    <string name="profile">Perfil</string>
+    <string name="remove_account">Eliminar cuenta</string>
+    <string name="log_out">Desconexión</string>
+    <string name="no_such_user">No existe dicho usuario</string>
+    <string name="action_credits">Créditos</string>
+    <string name="credits_message">Javier Fernández Riolobos (Demo de aplicación para la empresa InnoCV Solutions)</string>
+    <string name="quit">Cancelar</string>
+    <string name="help">Help</string>
+    <string name="help_content">Bienvenido a la aplicación ¡Hola Mundo! Toca el icono de la pestaña de navegación para empezar a disfrutar la funcionalidad existente. La pantalla principal es tan sólo una ventana de bienvenida. La lista de usuarios muestra todos los existentes. Filtrar usuarios te permite realizar ciertas restricciones a la hora de listar los usuarios. Buscar usuario permite determinar un usuario a partir de su ID. Editar cuenta te permite modificar tus datos personales. Eliminar cuenta remueve tu perfil de usuario por completo.</string>
+    <string name="follow_me">¡Sígueme en mis redes sociales!</string>
+    <string name="link_to_linkedin">www.linkedin.com/in/javier-fernandez-riolobos</string>
+
+
+</resources>

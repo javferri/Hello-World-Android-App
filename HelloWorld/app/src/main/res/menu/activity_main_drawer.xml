@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_list_users"
+            android:icon="@drawable/ic_list_users"
+            android:title="@string/list_users" />
+        <item
+            android:id="@+id/nav_filter_users"
+            android:icon="@drawable/ic_filter_users"
+            android:title="@string/filter_users" />
+        <item
+            android:id="@+id/nav_search_user"
+            android:icon="@drawable/ic_search_user"
+            android:title="@string/search_user" />
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+            <item
+                android:id="@+id/nav_update_user"
+                android:icon="@drawable/ic_update_user"
+                android:title="@string/edit_account" />
+            <item
+                android:id="@+id/nav_remove_account"
+                android:icon="@drawable/ic_remove_account"
+                android:title="@string/remove_account" />
+        </menu>
+    </item>
+
+    <item android:title="@string/exit_button">
+        <menu>
+            <item
+                android:id="@+id/nav_exit_application"
+                android:icon="@drawable/ic_exit_application"
+                android:title="@string/log_out" />
+        </menu>
+    </item>
+
+</menu>
